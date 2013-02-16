@@ -16,7 +16,11 @@ $selectionBackgroundColor: #134674;
 	@include radial-gradient( lighten($backgroundColor, 40% ), #f7fbfc );
 }
 
-
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
