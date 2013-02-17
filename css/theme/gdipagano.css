@@ -184,3 +184,13 @@ body {
 .reveal li {
   margin: 0.5em 0;
 }
+
+.activity .reveal .state-background {
+  background: #e8fdff;
+  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #e8fdff));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
+  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
+  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
+}

@@ -12,8 +12,8 @@ $linkColor: #01A9B4;
 $selectionBackgroundColor: #134674;
 
 // Background generator
-@mixin bodyBackground() {
-	@include radial-gradient( lighten($backgroundColor, 40% ), #f7fbfc );
+@mixin bodyBackground($color: $backgroundColor) {
+	@include radial-gradient( lighten($color, 40% ), #f7fbfc );
 }
 
 // Theme template ------------------------------
@@ -27,4 +27,9 @@ $selectionBackgroundColor: #134674;
 
 .reveal li {
   margin: 0.5em 0;
+}
+
+// Change slide color for activies
+.activity .reveal .state-background {
+  @include bodyBackground(lighten($linkColor, 20%));
 }
