@@ -194,3 +194,8 @@ body {
   background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
   background: radial-gradient(center, circle cover, #f7fbfc 0%, #e8fdff 100%);
 }
+
+.reveal .left-align {
+  width: 90%;
+  margin: 0 auto;
+}

@@ -33,3 +33,8 @@ $selectionBackgroundColor: #134674;
 .activity .reveal .state-background {
   @include bodyBackground(lighten($linkColor, 20%));
 }
+
+.reveal .left-align {
+  width: 90%;
+  margin: 0 auto;
+}
